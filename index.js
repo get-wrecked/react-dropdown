@@ -13,6 +13,7 @@ class Dropdown extends Component {
       },
       isOpen: false
     }
+
     this.dropdownRef = createRef()
     this.mounted = true
     this.handleDocumentClick = this.handleDocumentClick.bind(this)
